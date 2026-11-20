@@ -1,0 +1,119 @@
+==========================================================================
+TUGAS DATA PREPROCESSING - MATA KULIAH PENAMBANGAN DATA
+==========================================================================
+Nama Pembuat Kasus : Shifa Rosdiana
+NIM Pembuat Kasus  : 3022410033
+
+Nama Pengerja      : Erma Oktavia Ramadhani
+NIM Pengerja       : [ISI NIM ERMA]
+==========================================================================
+
+DESKRIPSI KASUS: PREDIKSI KELULUSAN UJIAN MATEMATIKA SISWA SEKOLAH MENENGAH
+--------------------------------------------------------------------------
+Dataset : dataset_student_kotor.csv
+Jumlah  : 412 baris, 33 variabel (numerik dan kategorik)
+Sumber  : Student Performance (UCI Machine Learning Repository / Kaggle), mata
+          pelajaran Matematika di dua sekolah menengah di Portugal. Data asli
+          ditambah beberapa variabel (Tinggi, Berat, Bulan, Status_Kesehatan,
+          Test_Result) dan dimanipulasi untuk keperluan praktikum.
+
+LATAR BELAKANG
+Sebuah sekolah ingin mengetahui siswa yang berisiko tidak lulus ujian
+Matematika agar dapat diberi bimbingan sejak dini. Data dikumpulkan dari rapor
+dan kuesioner oleh beberapa petugas dengan cara pencatatan yang berbeda-beda,
+sehingga kualitas dan keseragaman datanya belum terjamin. Anda berperan sebagai
+data scientist yang harus menyiapkan data ini sebelum dipakai untuk membangun
+model klasifikasi Test_Result (Pass / Fail).
+
+DESKRIPSI VARIABEL
+ID_Siswa          : kode unik siswa
+school            : sekolah (GP / MS)
+sex               : jenis kelamin
+age               : usia (tahun)
+address           : tipe tempat tinggal (U = urban, R = rural)
+famsize           : ukuran keluarga (LE3 = <=3 orang, GT3 = >3 orang)
+Mjob, Fjob        : pekerjaan ibu / ayah
+reason            : alasan memilih sekolah
+guardian          : wali siswa
+higher            : ingin melanjutkan ke pendidikan tinggi (yes/no)
+internet          : memiliki akses internet di rumah (yes/no)
+romantic          : sedang menjalin hubungan (yes/no)
+Medu, Fedu        : pendidikan ibu / ayah (0-4)
+traveltime        : waktu tempuh ke sekolah (1-4)
+studytime         : waktu belajar mingguan (1-4)
+failures          : jumlah kegagalan kelas sebelumnya
+famrel            : kualitas hubungan keluarga (1-5)
+freetime, goout   : waktu luang / frekuensi keluar bersama teman (1-5)
+Dalc, Walc        : konsumsi alkohol hari kerja / akhir pekan (1-5)
+health            : status kesehatan saat ini (1-5)
+absences          : jumlah ketidakhadiran
+G1, G2, G3        : nilai periode 1, periode 2, dan nilai akhir (0-20)
+Tinggi            : tinggi badan (meter)
+Berat             : berat badan (kg)
+Bulan             : bulan pengambilan data (1-12)
+Status_Kesehatan  : kategori kesehatan (Low / Medium / High)
+Test_Result       : hasil ujian (Pass / Fail)
+
+ATURAN VALIDASI DATA (dari pihak sekolah)
+- Usia siswa yang valid: 15 - 22 tahun.
+- Nilai G1, G2, G3 valid pada rentang 0 - 20.
+- Tinggi valid 1,40 - 2,10 meter; Berat valid 30 - 150 kg.
+- Siswa dinyatakan Pass jika G3 >= 10, selain itu Fail.
+- Kolom skala (Medu, Fedu, traveltime, studytime, famrel, freetime, goout,
+  Dalc, Walc, health) hanya boleh berisi bilangan bulat sesuai rentang di atas.
+
+TUGAS (5 TAHAP)
+Kerjakan dengan Python (Jupyter Notebook) dan jelaskan setiap tahap dalam format
+INPUT - PROSES - OUTPUT. Jenis dan jumlah masalah pada data TIDAK diberitahukan;
+Anda harus menemukannya sendiri.
+
+1. DETEKSI MASALAH DATA
+   Buat profil data (dimensi, tipe data, statistik deskriptif, nilai unik tiap
+   kolom kategorik). Temukan dan dokumentasikan semua masalah yang ada, meliputi
+   penulisan kategori yang tidak seragam, spasi berlebih, nilai yang melanggar
+   aturan validasi (termasuk outlier usia), dan nilai yang tampak seperti data
+   biasa tetapi sebenarnya menggantikan data kosong. Sajikan dalam tabel: kolom,
+   jenis masalah, jumlah baris terdampak, dan bukti (kode/histogram/boxplot).
+
+2. PEMBERSIHAN DATA
+   Tangani seluruh masalah dari tahap 1: seragamkan label dan huruf besar/kecil,
+   hapus spasi berlebih (depan, belakang, dan ganda di tengah), perbaiki tipe data
+   dan format yang salah, ubah nilai yang melanggar aturan validasi, dan ubah nilai
+   pengganti data kosong menjadi missing value (NaN). Periksa konsistensi antara
+   Test_Result dan G3. Tampilkan data sebelum dan sesudah tiap perbaikan.
+
+3. PENANGANAN MISSING VALUE
+   Hitung jumlah missing value per kolom dan visualisasikan polanya (missingno).
+   Gunakan statistik deskriptif (mean, median, modus, distribusi) untuk menentukan
+   metode tiap kolom. Bandingkan minimal TIGA strategi (hapus baris, hapus kolom,
+   isi nilai 0 / mean / median / modus) dan jelaskan dampaknya pada data. Tetapkan
+   strategi final tiap kolom beserta alasannya.
+
+   [TANTANGAN - di luar materi praktikum]
+   Pada kolom Berat dan Tinggi, isi missing value berdasarkan kelompok jenis
+   kelamin (bukan rata-rata keseluruhan). Jelaskan mengapa cara ini lebih tepat
+   dan bandingkan hasilnya dengan pengisian rata-rata biasa.
+
+4. TRANSFORMASI DATA
+   - Normalisasi variabel numerik dengan Min-Max, Z-score, dan Robust Scaler;
+     bandingkan hasilnya.
+   - Label encoding untuk variabel ordinal (Status_Kesehatan) dan Test_Result,
+     serta encoding yang sesuai untuk variabel kategorik lain.
+   - Diskretisasi satu variabel numerik dengan equal width (pd.cut) dan equal
+     frequency (pd.qcut); bandingkan sebaran tiap kategori.
+   - Seragamkan satuan Tinggi (meter/cm), lalu buat fitur BMI dari Tinggi dan Berat.
+   - Agregasi: hitung rata-rata variabel numerik per Bulan.
+   - Smoothing: terapkan moving average pada satu variabel.
+
+5. REDUKSI DATA
+   Hitung korelasi antar variabel numerik dan identifikasi variabel yang redundan.
+   Standardisasi variabel numerik lalu terapkan PCA: tampilkan grafik explained
+   variance, tentukan jumlah komponen yang dipertahankan beserta alasan, dan
+   interpretasikan komponen utamanya (misalnya dari nilai loading). Tutup dengan
+   tabel perbandingan data sebelum dan sesudah preprocessing (jumlah baris, kolom,
+   dan missing value).
+
+KETENTUAN PELAPORAN
+- Cantumkan nama pembuat kasus (Shifa Rosdiana) pada laporan.
+- Setiap tahap dijelaskan dengan format input - proses - output.
+- Laporan akhir dalam format PDF, dikumpulkan bersama file .ipynb di GitHub.

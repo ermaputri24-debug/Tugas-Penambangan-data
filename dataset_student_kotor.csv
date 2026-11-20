@@ -1,0 +1,413 @@
+ID_Siswa,school,sex,age,address,famsize,Mjob,Fjob,reason,guardian,higher,internet,romantic,Medu,Fedu,traveltime,studytime,failures,famrel,freetime,goout,Dalc,Walc,health,absences,G1,G2,G3,Tinggi,Berat,Bulan,Status_Kesehatan,Test_Result
+S241,GP,M,17,U,LE3,health,other,course,mother,yes,yes,yes,4,3,2,2,0,2,5,5,,4,5,14,12,12,12,1.84,66.4,6,High,Pass
+S249,GP,M,18,R,LE3,other,services,,mother,yes,yes,yes,,3,1,2,1,4,3,3,,3,5,8,3,5,5,1.78,56.8,11,High,Fail
+S061,GP,F,16,R,GT3,,teacher,other,mother,yes,no,no,4,4,1,2,0,2,4,4,2,3,4,6,10,11,11,1.53,450.0,7,High,Pass
+S031,GP,M,15,U,GT3,unknown,services,home,mother,yes,yes,no,4,4,1,2,0,5,4,2,3,4,5,0,9,11,12,1.72,71.2,5,High,Pass
+S388,MS,F,19,,GT3,services,other,course,mother,yes,yes,no,2,3,1,3,1,5,4,2,1,2,5,0,7,5,0,1.59,64.4,4,High,Fail
+S295,GP,M,18,R,LE3,services,other,reputation,mother,yes,yes,no,3,2,2,3,0,5,4,2,1,1,4,8,14,13,14,1.7,62.3,6,High,Pass
+S223,gp,F,16,U,GT3,services,teacher,other,mother,yes,yes,no,2,3,1,2,0,2,3,1,1,1,3,3,16,16,17,1.75,,3,Medium,Pass
+S376,ms,F,18,R,GT3,OTHER,other,home,mother,yes,yes,no,1,1,4,3,0,4,3,2,1,2,4,2,8,8,10,1.66,57.3,6,High,Pass
+S248,GP,M,22,U,GT3,services,services,,mother,no,yes,yes,3,1,1,1,3,5,4,5,5,5,1,16,6,8,8,1.67,57.2,5,Low,Fail
+S116,GP,M,16,U,GT3,TEACHER,teacher,course,father,yes,yes,no,4,4,1,2,0,5,4,4,1,2,5,2,15,15,16,1.8,62.3,11,High  ,Pass
+S288,GP,F,17,U,GT3,services,teacher,reputation,mother,yes,yes,no,1,1,1,3,0,4,3,3,1,1,3,6,13,12,12,1.62,,6,Medium,Pass
+S299,GP,F,18,U,GT3,other,other,reputation,father,,yes,no,4,3,1,4,0,4,3,3,1,1,3,0,14,13,14,1.63,66.2,8,Medium,Pass
+S282,GP,M,17,U,LE3,teacher,services,home,mother,yes,yes,no,3,2,1,1,1,4,4,4,3,4,3,19,11,,10,0,61.5,9,Medium,Pass
+S081,gp,,15,U,GT3,other,,course,father,yes,yes,yes,2,3,1,1,0,3,2,2,1,3,3,2,10,12,12,1.86,78.7,9,Medium,Pass
+S147,GP,F,15,U,GT3,health,services,,father,yes,yes,no,,2,1,2,3,3,3,2,1,1,3,0,6,7,0,1.62,46.1,4,Medium,Fail
+S169,GP,F,16,U,GT3,other,other,home,mother,yes,yes,no,2,2,1,2,0,5,1,5,1,1,4,0,6,7,0,,60.1,11,High,Fail
+S274,GP,M,17,R,GT3,at_home,at_home,home,,yes,no,yes,1,2,1,2,0,3,5,2,,2,1,2,15,14,14,1.77,68.7,8,Low,Pass
+S269,GP,,18,U,GT3,health,other,reputation,father,yes,yes,yes,4,2,1,2,0,5,4,5,1,3,5,10,10,9,10,1.71,73.9,12,High,Pass
+S119,GP,M,17,R,GT3,other,other,course,father,yes,yes,no,,3,3,2,1,5,2,4,1,4,5,,9,7,8,1.79,83.7,12,High,Fail
+S372,MS,M,18,R,LE3,at_home,,other,father,no,,yes,1,2,3,1,0,4,3,3,2,3,3,3,14,12,12,1.72,51.3,11,Medium,Pass
+S203,GP,F,17,U,GT3,other,other,course,mother,yes,no,,1,1,1,2,0,4,4,4,1,3,1,4,9,9,10,1.49,43.3,3,Low,Pass
+S309,GP,M,19,R,GT3,  other ,services,reputation,father,yes,no,yes,3,3,1,2,1,4,5,3,,2,5,0,15,12,12,1.77,75.7,8,High,Pass
+S339,gp,F,18,U,LE3,services,services,home,mother,yes,yes,no,3,?,1,4,0,5,3,3,1,1,1,7,16,15,17,1.65,52.9,6,Low,Pass
+S294,GP,F,17,R,LE3,services,other,reputation,mother,yes,no,no,3,1,2,4,0,3,1,2,1,1,3,6,18,18,18,1.62,39.4,5,Medium,Pass
+S370,MS,F,18,R,GT3,,teacher,other,father,yes,yes,yes,4,4,3,2,0,3,2,2,4,2,5,10,14,12,11,1.58,48.6,2,High,Pass
+S205,GP,F,16,R,GT3,services,services,reputation,,yes,,no,2,?,2,4,0,5,3,5,1,1,5,6,10,10,11,1.58,62.4,7,High,Pass
+S133,GP,f,17,U,LE3,other,other,course,father,yes,yes,yes,2,2,1,1,0,3,4,4,1,3,5,12,10,13,12,1.62,54.0,9,High,Pass
+S232,GP,M,17,,GT3,other,other,course,father,yes,yes,no,2,2,2,2,0,4,5,2,1,1,1,4,11,11,11,1.72,66.4,12,Low,Pass
+S130,GP,M,16,R,GT3,teacher,teacher,course,mother,yes,yes,no,4,4,1,1,0,3,5,5,2,5,4,8,18,18,18,1.65,69.9,2,High,Pass
+S027,GP,M,15,U,GT3,other,other,home,mother,yes,,no,2,2,1,1,0,4,2,2,1,2,5,2,12,12,11,1.79,66.4,6,High,Pass
+S224,GP,Male,18,U,GT3,other,other,home,mother,yes,yes,,2,2,2,2,0,3,3,3,5,5,4,0,12,13,13,1.67,59.3,9,High,Pass
+S208,GP,F,16,U,GT3,teacher,other,,mother,yes,yes,yes,4,3,1,2,0,1,3,2,1,1,1,10,11,12,13,1.59,45.5,8,Low,Pass
+S052,GP,F,15,U,LE3,health,other,other,mother,yes,yes,no,4,2,1,2,0,4,3,3,1,1,5,2,11,13,13,1.6,55.5,2,High,Pass
+S296,GP,M,17,U,GT3,health,other,home,mother,yes,yes,no,3,3,1,1,0,4,4,3,1,3,5,,14,12,11,1.67,,2,High,Pass
+S267,GP,M,17,U,GT3,services,other,other,mother,yes,yes,yes,3,1,1,2,0,5,4,4,3,4,5,2,,9,10,1.71,80.7,1,High,Pass
+S015,GP,M,15,U,GT3,other,other,home,other,yes,yes,yes,2,?,1,3,0,4,5,2,1,1,3,0,14,16,,1.61,56.6,8,Medium,Pass
+S102,gp,M,16,U,GT3,  services ,teacher,other,father,yes,yes,yes,4,4,1,3,0,4,4,-,1,1,4,0,,17,17,1.86,58.1,3,High,Pass
+S254,GP,M,16,R,GT3,other,other,course,mother,yes,no,no,2,1,2,,0,3,3,2,1,3,3,0,8,9,8,1.59,48.1,5,Medium,Fail
+S189,GP,F,17,U,GT3,  health ,other,reputation,mother,yes,yes,yes,3,3,1,2,0,3,3,3,1,3,3,6,8,7,9,1.62,62.3,7,Medium,Fail
+S053,GP,M,15,U,LE3,health,health,other,father,yes,no,no,4,2,2,1,1,5,5,5,3,4,5,6,11,11,10,1.79,63.7,11,High,Pass
+S141,GP,M,15,U,GT3,teacher,services,course,father,,yes,no,4,3,2,,0,2,2,2,,1,3,0,7,9,0,1.81,62.8,10,Medium,Pass
+S057,GP,F,15,U,GT3,services,,reputation,mother,yes,yes,no,4,3,1,,0,4,3,2,1,1,1,0,14,15,15,1.6,47.2 kg,3,Low,Pass
+S262,gp,M,18,U,GT3,,other,course,mother,yes,yes,no,4,3,1,2,0,4,3,2,1,1,3,2,8,8,8,1.79,75.9,10,Medium,Fail
+S356,MS,F,18,U,GT3,services,services,course,father,yes,no,yes,3,3,1,2,0,5,3,4,1,1,5,0,10,9,9,1.61,53.1,9,High,Fail
+S163,GP,M,16,U,LE3,other,other,course,mother,yes,no,no,1,2,2,1,1,4,4,4,2,4,5,0,7,0,0,1.66,0,10,High,Fail
+S303,GP,F,17,U,GT3,other,other,reputation,mother,yes,yes,no,4,2,2,3,0,4,3,3,1,1,,0,15,12,,1.56,59.6,12,Medium,Pass
+S112,GP,F,16,R,GT3,services,other,reputation,father,yes,yes,no,3,3,1,3,1,4,1,2,1,1,2,0,7,10,10,1.56,44.7,7,Low,Pass
+S066,GP,F,16,U,LE3,teacher,services, course,mother,,yes,no,4,3,3,2,0,5,4,3,1,2,1,2,16,15,,161.0,61.5,12,Low,Pass
+S110,GP,F,16,U,LE3,health,health,other,mother,yes,yes,,4,4,1,3,0,5,4,5,1,1,4,4,14,15,16,1.63,58.0,11,High,Pass
+S369,MS,F,18,U,GT3,at_home,services,course,father,yes,yes,yes,2,3,2,1,0,5,2,3,1,2,,0,11,10,10,1.57,,7,High,Fail
+S374,MS,F,17,R,GT3,OTHER,other,course,mother,yes,yes,no,1,2,1,1,0,3,5,5,1,3,1,14,6,5,5,1.59,45.4,9,Low,Fail
+S233,GP,f,17,U,GT3,teacher,teacher,reputation,mother,yes,yes,yes,4,4,1,2,0,4,5,5,1,3,2,14,11,9,9,1.73,65.4,10,Low,Fail
+S115,GP,M,15,R,GT3,health,services,reputation,mother,yes,,yes,2,1,1,2,0,5,4,2,1,1,5,8,9,9,9,1.67,,3,High,Failed
+S029,GP,M,16,U,LE3,services,Other,home,mother,yes,yes,no,3,4,1,2,0,5,3,3,1,1,5,4,11,11,11,1.77,78.9,1,High,Pass
+S042,GP,MALE,15,U,LE3,teacher,other,home,other,yes,yes,yes,4,4,1,1,0,5,4,3,2,4,5,8,12,12,12,1.76,55.3,7,High,Pass
+S004,GP,F,15,U,GT3,health,services,,mother,yes,yes,yes,4,2,1,3,0,3,2,2,1,1,5,2,15,14,15,1.71,49.8,5,High,Pass
+S023,GP,M,16,U,LE3,  teacher ,other, course,mother,yes,yes,no,4,2,1,2,0,4,5,1,,3,5,2,15,15,16,1.63,39.9,12,High,Pass
+S361,MS,F,18,R,LE3,at_home,other,course,mother,yes,no,yes,1,?,3,2,0,4,3,4,1,4,5,0,13,13,13,1.73,,8,High,Pass
+S091,GP,F,16,U,GT3,other,other,home,mother,yes,yes,yes,3,3,1,3,0,4,3,-,1,3,4,0,,7,8,,55.6,11,High,Fail
+S343,GP,M,18,U,LE3,services,other,home,mother,yes,yes,yes,3,4,1,2,0,4,3,3,1,3,5,11,16,15,15,1.66,47.0,6,High,Pass
+S357,MS,,17,R,GT3,TEACHER,services,other,father,yes,yes,no,4,4,2,2,0,4,3,3,1,2,5,4,12,13,13,1.63,50.3,12,High,Pass
+S229,GP,M,18,U,LE3,at_home,other,course,mother,yes,yes,,2,1,4,2,0,4,3,2,4,5,3,14,10,8,9,1.88,68.9,6,Medium  ,Fail
+S238,GP,F,16,U,GT3,other,other,home,mother,yes,yes,yes,2,1,1,1,0,4,5,2,1,1,5,20,13,12,12,1.57,38.8,1,High,Pass
+S265,GP,F,,U,GT3,at_home,services,home,mother,yes,yes,yes,2,2,1,3,0,4,3,3,,1,3,0,9,10,0,1.53,49.9,9,Medium,Fail
+S058,GP,M,15,U,GT3,teacher,health,reputation,mother,yes,no,no,4,4,1,2,0,3,2,2,1,1,5,4,14,15,15,1.65,54.9,12,High,Pass
+S160,GP,M,16,U,GT3,  other ,services,course,father,,yes,yes,3,3,1,2,1,4,5,5,4,4,5,4,10,12,12,1.76,,6,High,Pass
+S140,gp,F,15,U,GT3,teacher,teacher,course,mother,yes,yes,no,4,4,2,1,0,4,3,2,1,1,5,0,16,16,15,1.49,62.8,12,High,Pass
+S142,GP,M,16,U,LE3,services,services,reputation,father,yes,yes,no,2,2,2,1,2,2,3,3,2,2,2,8,9,9,9,1.71,65.9,10,Low,Fail
+S090,GP,M,16,U,LE3,teacher,health,reputation,mother,yes,no,no,4,4,1,2,0,4,1,3,3,5,5,18,8,6,7,1.82,56.1,10,High,Fail
+S237,GP,M,17,U,LE3,other,other,home,father,yes,yes,yes,2,2,1,2,0,4,4,2,5,5,4,4,14,13,13,1.74,76.6,6,High,Pass
+S298,GP,female,18,U,LE3,other,other,home,other,yes,yes,yes,4,3,2,2,0,4,4,5,1,2,2,10,10,8,8,1.64,70.7,2,Low,Fail
+S244,GP,M,16,U,GT3,services,services,course,mother,yes,yes,no,4,?,1,1,0,5,3,2,1,2,5,0,13,12,12,1.65,64.3,10,High,Pass
+S121,GP,F,,U,GT3,at_home,,course,it,yes,yes,no,1,2,1,2,0,3,2,3,1,2,1,2,16,15,15,1.72,59.6,7,Low,Pass
+S242,GP,M,17,R,LE3,  teacher ,other,course,mother,yes,yes,no,4,4,2,2,0,3,3,3,2,3,4,2,10,11,12,1.85,56.4,5,High,Pass
+S250,gp,M,16,U,GT3,other,other,other,mother,yes,yes,no,0,2,1,1,0,4,3,2,2,4,5,0,13,15,15,1.74,47.0,10,High,Pas
+S175,GP,F,16,U,LE3,other,other,reputation,mother,yes,yes,,3,3,2,2,0,4,4,5,1,1,4,4,10,11,9,1.67,56.3,12,High,Fail
+S382,MS,M,18,R,GT3,other,other, other,mother,yes,yes,,,1,2,1,0,4,4,3,1,3,5,5,7,6,7,1.94,90.0,11,High,Fail
+S178,GP,Male,17,U,GT3,other,other,reputation,father,yes,yes,no,3,3,1,2,0,4,3,4,1,4,4,4,6,5,6,1.67,64.3,5,High,Fail
+S245,GP,F,18,,GT3,other,other,course,other,yes,yes,yes,2,1,2,3,0,4,4,4,1,1,3,0,7,0,0,1.65,43.2,5,Medium,Fail
+S099,GP,F,16,U,GT3,other,other,reputation,mother,yes,yes,no,4,4,1,1,0,5,3,4,1,2,1,6,11,14,14,1.62,0,1,Low,Fail
+S194,GP,M,16,R,?,services,services,reputation,mother,yes,yes,no,3,3,1,1,0,4,3,2,3,4,5,8,8,,10,1.71,54.9,1,High,Pass
+S358,MS,F,17,U,LE3,services,other,reputation,mother,yes,no,yes,3,2,2,2,0,1,2,3,1,2,5,2,12,12,11,1.69,69.7,5,High,Pass
+S060,GP,F,16,U,GT3,services,other,course,mother,yes,yes,no,4,2,1,2,0,4,2,3,1,1,5,2,15,16,16,1.67,51.5,8,High,Pas
+S240,GP,M,18,U,GT3,other,Services, reputation,father,,yes,no,,2,1,2,1,5,5,4,3,5,2,0,7,7,0,1.71,61.3,5,Low  ,Pass
+S075,GP,f,16,U,GT3,other,services,home,mother,yes,yes,no,3,3,1,2,0,4,3,3,2,4,5,54,,12,11,1.62,0,5,High,Pass
+S080,gp,F,16,U,GT3,at_home,other,course,mother,yes,yes,no,3,4,1,2,0,2,4,3,1,2,3,12,,5,5,1.56,0,9,Medium,Fail
+S156,GP,M,15,R,GT3,at_home,services,course,mother,yes,no,no,2,3,1,2,0,4,4,4,1,1,1,2,11,8,8,1.61,62.5,10,Low,Fail
+S221,GP,F,17,R,GT3,AT_HOME,services,reputation,mother,yes,,no,2,1,2,2,0,4,2,5,1,2,5,2,6,,6,1.66,,2,High,Fail
+S082,GP,M,15,U,GT3,other,other,home,mother,yes,yes,no,2,3,1,3,0,5,3,2,1,2,5,4,11,10,11,1.78,52.6,10,High,Pass
+S051,GP,,16,U,LE3,services,services,,mother,yes,yes,,2,2,3,2,0,4,3,3,2,3,4,,12,13,13,1.62,64.5,5,High,Pass
+S257,GP,F,17,,LE3,  teacher ,services,reputation,mother,yes,yes,no,4,2,1,4,0,4,2,3,1,1,4,6,14,12,13,1.64,0,12,High,Pass
+S337,GP,F,19,R,GT3,SERVICES,at_home,home,other,yes,no,no,3,1,1,3,1,5,4,3,1,2,5,12,14,13,13,1.54,59.7,3,High,Pass
+S370,MS,F,18,R,GT3,,teacher,other,father,yes,yes,yes,4,4,3,2,0,3,2,2,4,2,5,10,14,12,11,1.58,48.6,2,High,Pass
+S368,MS,F,17,R,GT3,other,,reputation,mother,yes,yes,yes,1,1,3,1,1,5,2,1,1,2,1,0,7,6,0,1.58,60.7,2,Low,failed
+S217,GP,F,17,U,GT3,OTHER,other,reputation,mother,,yes,,4,3,1,2,2,3,4,5,2,4,1,22,6,6,4,1.64,56.3,8,Low,Failed
+S054,GP,F,15,U,GT3,services,services,course,mother,yes,yes,no,4,4,1,1,0,3,3,4,2,3,5,0,8,10,11,1.61,59.7,12,High,Pas
+S362,MS,M,18,R,LE3,at_home,other,other,mother,no,no,no,1,1,2,2,1,4,4,3,2,3,5,2,13,12,12,1.75,60.2,9,High,Pass
+S146,gp,F,15,U,GT3,other,services,course,father,yes,yes,no,1,1,1,2,0,4,4,2,,2,5,0,8,11,11,1.58,67.3,12,High,Pass
+S369,MS,F,18,U,GT3,at_home,services,course,father,yes,yes,yes,2,3,2,1,0,5,2,3,1,2,,0,11,10,10,1.57,,7,High,Fail
+S330,GP,F,17,U,GT3,teacher,teacher,course,mother,yes,yes,,4,4,2,3,0,4,3,3,1,2,4,5,14,14,14,1.58,61.5,4,High,pass
+S311,GP,F,19,U,LE3,services,Services,home,other,yes,no,yes,1,2,1,2,1,4,2,4,2,2,3,0,9,9,0,169.0,73.7,8,Medium,Fail
+S182,GP,M,16,U,GT3,SERVICES,Other,home,mother,yes,yes,yes,3,3,1,,0,4,2,3,1,2,3,2,12,13,12,1.75,67.2,6,Medium,Pass
+S201,gp,F,16,U,GT3,  health ,other,home,mother,yes,yes,no,4,3,1,2,0,4,3,5,1,5,,2,16,,16,1.58,,2,Low,Pass
+S067,gp,M,15,U,GT3,other,services,reputation,mother,yes,yes,yes,4,4,1,4,0,1,3,3,5,5,3,4,13,13,12,0,57.5,3,Medium,Pass
+S378,MS,f,,R,LE3,unknown,services,course,mother,yes,yes,no,4,4,1,2,0,5,4,3,3,4,2,4,8,9,10,1.56,,6,Low,Pass
+S222,GP,F,17,U,GT3,at_home,other,reputation,,yes,no,yes,1,1,1,3,1,4,3,4,1,1,5,0,6,5,0,1.53,47.6,5,High,Fail
+S164,GP,M,17,U,GT3,AT_HOME,services,course,father,no,yes,no,1,3,1,1,0,5,3,3,1,4,2,2,10,10,10,,86.6,9,Low,Pass
+S380,MS,F,17,R,GT3,at_home,Other,reputation,mother,yes,yes,no,3,1,1,2,0,4,5,4,2,3,1,17,10,10,10,163.0,64.9,11,Low,Pass
+S085,GP,F,15,U,GT3,other,other,home,father,yes,yes,,1,1,1,2,0,4,3,2,2,3,4,2,9,,10,162.0,51.5,4,High,Pass
+S345,GP,MALE,18,U,GT3,at_home,other,course,mother,yes,yes,no,2,3,1,3,0,4,3,3,1,2,3,4,11,10,10,,52.2,7,Medium,Pass
+S338,GP,F,17,U,GT3,other,other,home,mother,yes,yes,yes,3,2,1,2,0,4,3,2,2,3,2,0,7,8,0,1.57,45.4,2,Low,Failed
+S100,GP,F,,U,GT3,other,at_home,course,mother,yes,yes,no,4,3,1,3,0,5,3,5,1,1,3,0,7,9,8,1.64,40.3,8,Medium,Fail
+S033,GP,M,15,R,GT3,teacher,at_home,course,mother,yes,,yes,4,3,1,2,0,4,5,2,1,1,5,0,17,16,16,1.74,75.7,4,High,Pass
+S333,GP,F,18,U,GT3,services,services,home,mother,yes,yes,no,3,3,1,2,0,5,3,4,1,1,4,,7,0,0,153.0,54.1,9,High,Pass
+S016,GP,f,16,U,?,health,other,home,mother,yes,,no,4,4,1,1,0,4,4,4,1,2,2,4,14,14,14,1.65,,5,Low,Pass
+S264,GP,F,17,U,GT3,other,Other,home,mother,yes,no,no,3,3,1,,0,3,2,3,1,1,4,4,10,9,9,,53.0,5,High,fail
+S304,GP,F,17,U,GT3,health,health,reputation,father,yes,yes,no,3,2,1,4,0,5,2,2,1,2,5,0,17,17,18,1.63,58.4,11,High,Pass
+S239,GP,F,17,R,GT3,at_home,services,course,mother,yes,no,no,2,1,3,2,0,2,1,1,1,1,3,2,13,11,11,1.66,52.3,2,Medium,Pass
+S174,GP,F,16,U,GT3,at_home,services,home,mother,yes,yes,yes,1,3,1,2,3,4,3,5,1,1,3,0,8,7,0,1.69,62.9,10,Medium,Failed
+S087,GP,f,,U,LE3,at_home,other,course,mother,yes,no,no,,2,1,2,0,4,3,4,1,2,2,4,8,7,6,,54.5,11,Low,Fail
+S038,GP,M,16,,GT3,unknown,teacher,reputation,mother,yes,yes,yes,4,4,2,3,0,2,4,3,1,1,5,7,15,16,15,0,64.8,7,High,Pass
+S003,GP,F,15,U,LE3,at_home,other,other,mother,yes,yes,no,1,1,1,2,3,4,3,2,2,3,3,10,7,8,10,1.51,53.7,6,Medium  ,Pass
+S063,GP,F,16,U,LE3,  other ,services,reputation,father,yes,yes,no,1,2,1,2,0,4,4,3,1,1,1,4,8,10,9,160.0,55.2,10,Low,Fail
+S139,GP,,16,U,LE3,services,other,course,mother,yes,no,yes,1,1,1,2,1,4,4,4,1,3,5,0,14,12,12,1.75,49.7,8,High,pass
+S165,GP,M,17,R,LE3,other,services,course,mother,no,no,yes,1,1,4,2,3,5,3,5,1,5,5,0,5,8,7,1.66,63.3,4,High,Fail
+S314,GP,F,19,U,LE3,services,other,reputation,other,yes,yes,yes,3,2,2,2,1,4,2,2,1,2,1,22,13,10,11,1.54,51.1,3,Low,pass
+S148,GP,F,15,,GT3,at_home,other,course,mother,yes,yes,no,,2,1,2,0,4,3,2,1,1,5,2,10,11,11,,,4,High,Pass
+S149,GP,M,16,,GT3,  TEACHER ,teacher,course,mother,no,yes,yes,4,4,1,1,0,3,3,-,2,1,5,0,7,6,0,1.79,52.0,6,High,Fail
+S074,GP,M,16,U,GT3,other,,reputation,it,yes,no,no,3,1,1,1,0,5,3,2,2,2,5,2,12,12,14,1.71,43.9,11,High,Pass
+S278,GP,M,18,U,GT3,teacher,,home,mother,yes,yes,no,4,4,2,1,0,3,2,4,1,4,,22,9,9,9,1.82,57.3,9,Medium,Fail
+S105,GP,M,15,U,GT3,services,other,course,mother,yes,yes,no,3,?,1,2,0,5,4,4,1,1,1,0,16,18,18,1.78,83.7,3,Low,Pass
+S158,GP,F,18,R,GT3,at_home,other,course,,yes,no,no,1,1,3,,3,5,2,5,1,5,4,6,9,8,10,1.57,52.7,4,High,Pass
+S017,GP,,16,U,GT3,,Services,,mother,yes,yes,no,4,4,1,3,0,3,2,3,1,2,2,6,13,14,14,1.62,62.3,7,Low,Pass
+S171,GP,M,16 tahun,,GT3,other,Other,course,father,yes,yes,no,3,4,3,1,2,3,4,5,2,4,2,0,6,5,0,1.77,74.9,4,Low,Fail
+S089,GP,M,0,U,GT3,services,other,reputation,father,yes,yes,no,2,2,2,2,1,4,4,2,1,1,3,12,11,10,10,1.75,,12,Medium,Pass
+S365,MS,F,17,R,GT3,other,services,course,father,yes,no,no,1,2,2,2,0,3,2,2,1,2,3,0,12,11,12,1.55,50.0,10,Medium,Pass
+S103,GP,M,15,,GT3,services,other,course,mother,yes,yes,no,4,4,1,1,0,5,3,3,1,1,5,4,10,13,14,1.73,62.0,2,High,Pass
+S319,GP,F,17,R,GT3,at_home,services,course,father,yes,yes,no,3,4,1,3,0,4,3,4,2,5,5,0,11,11,10,1.61,,2,High,Pass
+S071,GP,M,16,U,GT3,other,other,reputation,father,yes,,no,,1,2,4,0,4,3,2,1,1,5,0,13,15,15,1.69,68.8,10,High,pass
+S134,gp,F,,U,GT3,services,other,course,father,yes,yes,no,3,4,1,1,0,N/A,2,1,1,4,5,,12,11,11,1.68,71.8,6,High,pass
+S335,GP,F,18,R,GT3,at_home,other,course,mother,yes,no,,2,2,2,4,0,4,4,4,1,1,4,0,10,9,0,1.61,44.3,6,High,Fail
+S305,GP,MALE,19,U,GT3,other,other,home,other,yes,yes,yes,3,3,1,2,1,4,4,4,1,1,3,20,15,14,13,1.78,75.3,5,Medium,Pass
+S236,GP,M,16,U,GT3,at_home,other, reputation,mother,yes,yes,yes,3,2,2,3,0,5,3,3,1,3,2,10,11,9,10,1.74,61.3,5,Low,Pass
+S271,GP,Male,19,U,GT3,,services,home,other,yes,yes,no,3,3,1,2,2,4,3,5,3,3,5,15,9,9,9,1.69,58.5,10,High,Fail
+S019,GP,M,17 tahun,,GT3,services,services,course,mother,yes,yes,no,3,2,1,1,3,5,5,5,2,4,5,16,6,5,,1.68,58.4,12,High,Fail
+S323,GP,F,17,R,LE3,services,services,course,mother,yes,yes,no,2,2,1,3,0,3,3,2,2,2,3,3,11,11,11,1.69,64.5,6,Medium,Pass
+S021,GP,M,130,U,GT3,teacher,other,reputation,mother,yes,yes,no,4,3,1,2,0,4,4,1,1,1,1,0,13,14,15,1.61,62.1,11,Low,Pass
+S056,GP,F,16,U,GT3,other,other,other,mother,yes,yes,yes,2,1,1,2,0,5,3,4,1,1,2,8,8,9,10,1.53,43.1,9,Low,Pass
+S289,GP,M,18,U,GT3,services,services,reputation,,yes,yes,no,2,1,1,3,0,4,2,4,1,3,2,6,15,14,14,1.75,68.1,5,Low,Fail
+S348,GP,M,18,U,GT3,teacher,Other,course,mother,yes,yes,yes,4,3,1,3,0,5,4,5,2,3,,0,10,10,9,1.75,50.9,4,High,Fail
+S293,GP,F,18,U,LE3,services,at_home,reputation,mother,yes,yes,yes,2,1,1,,1,5,4,3,1,1,5,12,12,12,13,1.57,0,2,High,Pas
+S297,GP,F,19,U,GT3,health,other,reputation,other,yes,yes,no,4,4,2,2,0,2,3,4,2,3,2,0,10,9,0,,55.5,12,Low,fail
+S151,GP,M,150,U,LE3,other,other,course,mother,no,yes,yes,1,1,1,1,3,2,3,5,2,5,4,0,6,5,0,1.76,58.1,9,High,Fail
+S195,GP,M,16,U,GT3,OTHER,other,home,father,yes,yes,no,2,3,2,1,0,5,3,3,1,1,3,,13,14,14,1.86,63.4,4,Medium,Pass
+S166,GP,M,16,U,GT3,services,services,course,mother,no,no,no,3,2,2,1,1,4,5,2,1,1,2,16,12,11,12,,66.4,5,Low  ,Pass
+S353,MS,M,18,U,LE3,at_home,services, course,mother,no,yes,yes,1,3,1,1,1,4,3,3,2,3,3,,8,7,8,1.83,74.9 kg,2,Medium,Fail
+S098,GP,F,16,U,GT3,other,other,course,mother,yes,no,yes,2,1,1,,0,4,3,5,1,1,5,2,8,9,10,1.53,48.5,7,High,Pass
+S394,ms,M,18,R,LE3,  services ,other,course,mother,yes,yes,,3,2,3,1,0,4,4,1,3,4,,0,11,12,10,1.76,,2,High,Pass
+S155,gp,F,17,U,GT3,other,teacher,course,mother,yes,no,yes,4,4,1,1,0,4,2,-,1,1,4,0,11,11,12,1.7,58.3,8,High,Pass
+S123,gp,F,,U,LE3,other,health,course,father,yes,yes,yes,2,4,2,2,0,4,2,2,1,2,5,2,,13,13,1.65,65.1,11,High  ,Pass
+S114,GP,M,15,U,LE3,teacher,other,course,mother,yes,yes,no,,2,1,1,0,3,5,2,1,1,3,10,18,19,19,1.8,72.3,10,Medium,Pas
+S246,GP,f,16,U,GT3,other,other,course,mother,yes,yes,no,2,1,3,1,0,4,3,3,1,1,4,,18,18,18,1.63,39.9,12,High,Pass
+S270,GP,F,,R,GT3,OTHER,Other,reputation,mother,no,yes,,2,1,2,2,0,4,3,5,1,2,3,0,6,0,,166.0,66.6,5,Medium,Fail
+S109,GP,M,15,R,GT3,other,,home,father,yes,yes,yes,4,4,4,4,0,1,3,5,3,5,1,6,10,13,13,1.86,68.3,11,Low,Pass
+S284,GP,F,18,U,GT3,other,other,,mother,yes,yes,no,1,1,2,2,0,5,4,4,1,1,4,4,8,9,10,1.63,62.1,1,High,Pass
+S095,GP,M,15,U,LE3,services,health,reputation,mother,yes,yes,no,2,2,1,4,0,4,3,4,1,1,,6,11,,14,1.62,62.1,5,High,Pass
+S296,GP,M,17,U,GT3,health,other,home,mother,yes,yes,no,3,3,1,1,0,4,4,3,1,3,5,,14,12,11,1.67,,2,High,Pass
+S126,GP,M,15,U,GT3,services,services,home,father,yes,,no,3,4,1,1,0,5,5,5,3,2,5,,13,13,,1.8,80.1,8,High,Pass
+S379,MS,F,,U,GT3,other,other,,mother,yes,yes,yes,3,3,1,2,0,4,1,3,1,2,1,0,15,15,15,1.63,57.9,6,Low,Pass
+S395,MS,M,19,U,LE3,other,at_home,course,father,yes,yes,no,1,1,1,1,0,3,2,3,3,3,5,5,8,9,9,1.67,68.1,5,High,Fail
+S092,GP,F,,U,GT3,,,reputation,mother,yes,yes,no,4,3,1,,0,N/A,5,5,1,3,,4,16,17,18,,50.5,12,Low,Pass
+S391,MS,M,20,U,LE3,services,services,course,other,yes,no,,2,2,1,2,2,5,5,4,4,5,4,11,9,9,9,1.7,57.7,5,High,Fail
+S166,GP,M,16,U,GT3,services,services,course,mother,no,no,no,3,2,2,1,1,4,5,2,1,1,2,16,12,11,12,,66.4,5,Low  ,Pass
+S308,gp,M,19,U,GT3,teacher,services,reputation,other,yes,yes,yes,4,4,2,1,1,4,3,4,1,1,4,38,,9,8,178.0,0,8,High,Fail
+S385,MS,M,18,R,GT3,other,other,home,father,yes,no,no,4,2,2,1,1,5,4,3,4,3,3,14,6,5,5,1.76,50.6,3,Medium,Fail
+S188,GP,M,16,U,LE3,other,other,course,mother,yes,yes,,2,1,1,2,0,4,2,3,1,2,5,0,15,15,15,1.67,64.3 kg,12,High,Pass
+S336,GP,F,17,U,GT3,SERVICES,other,course,mother,yes,yes,no,3,4,1,3,0,4,4,5,1,3,5,16,16,15,15,1.74,68.5,6,High,Pass
+S025,GP,F,15,R,GT3,SERVICES,health,course,mother,yes,yes,no,2,4,1,3,0,4,3,2,1,1,5,2,10,9,8,1.62,,7,High  ,Fail
+S325,GP,F,17,U,LE3,at_home,at_home,home,father,yes,yes,no,0,2,2,3,0,3,3,3,2,3,2,0,16,15,15,1.65,58.7,11,Low,Pass
+S256,GP,M,17,U,LE3,health,other,course,mother,yes,yes,no,1,1,2,1,1,4,4,4,1,2,5,2,7,9,8,1.58,51.1,1,High,Fail
+S127,GP,F,15,U,LE3,other,other,home,mother,,,yes,3,4,1,2,0,5,3,2,1,1,1,0,7,10,11,1.73,46.9,5,Low,Pas
+S334,GP,F,18,U,LE3,other,Other,home,other,yes,yes,yes,2,2,1,2,0,4,3,3,1,1,2,0,8,8,0,1.58,64.0,6,Low,Fail
+S079,GP,M,17,U,GT3,  other ,other,home,,no,yes,no,2,1,2,1,3,4,5,1,1,1,3,2,8,8,10,1.72,58.4,10,Medium,Pass
+S207,GP,F,16,U,GT3,services,other,course,mother,yes,yes,no,3,1,1,2,3,2,3,3,2,2,4,5,7,7,7,1.63,55.7,8,High,Fail
+S179,GP,M,16,R,GT3,teacher,services,other,mother,yes,yes,,4,2,1,,0,4,3,3,3,4,3,10,10,8,9,170.0,,5,Medium,Fail
+S342,GP,M,18,,GT3,teacher,services,home,father,yes,yes,no,4,4,1,2,1,4,3,3,2,2,2,0,10,10,0,1.7,50.1,5,Low,Fail
+S223,gp,F,16,U,GT3,services,teacher,other,mother,yes,yes,no,2,3,1,2,0,2,3,1,1,1,3,2,16,16,17,1.75,,3,Medium,Pass
+S321,GP,F,17,U,GT3,services,Services,course,mother,yes,yes,yes,4,3,1,2,0,5,2,2,1,2,5,23,13,13,13,1.67,62.5,9,High  ,Pas
+S228,GP,M,17,U,LE3,services,services,reputation,father,yes,yes,,2,3,1,2,0,5,3,3,1,3,,2,12,11,12,1.68,57.2,3,Medium  ,Pass
+S290,gp,M,18,U,LE3,teacher,teacher,reputation,mother,yes,yes,no,4,4,1,2,0,5,4,3,1,1,2,9,15,13,15,1.77,68.9,7,Low,Pas
+S062,GP,F,16 tahun,U,GT3,services,services,course,father,yes,yes,yes,1,1,4,1,0,5,5,5,5,5,5,6,10,8,11,1.64,64.4,10,High,Pass
+S390,MS,F,18,U,GT3,other,other,course,mother,yes,no,no,1,1,2,2,1,1,1,1,1,1,5,0,6,5,0,1.61,,1,High,Fail
+S094,GP,F,16,U,GT3,teacher,services,home,mother,yes,,no,4,2,2,2,0,5,3,3,1,1,1,0,11,10,10,1.72,51.5,7,Low,Pass
+S331,GP,M,18,U,LE3,OTHER,other,course,it,yes,yes,no,2,2,1,4,0,4,5,5,2,4,5,2,9,8,8,1.69,56.5,7,High,Fail
+S347,GP,M,18,R,GT3,,services,course,mother,yes,yes,,4,3,1,3,0,5,3,2,1,2,4,9,16,,16,1.66,53.3,4,High,Pass
+S070,GP,,15 tahun,R,LE3,other,other,reputation,,yes,yes,no,3,1,2,4,0,4,4,2,2,3,3,12,16,16,16,1.57,57.6,4,Medium,Pass
+S037,gp,M,15,U,LE3,teacher,services, home,,yes,yes,no,4,3,1,3,0,5,4,3,1,1,4,2,15,16,18,1.77,73.9,12,High,Pass
+S041,GP,F,16,U,LE3,other,other,home,mother,yes,yes,yes,2,2,2,2,1,3,3,3,1,2,3,25,7,10,11,1.65,,8,Medium,pass
+S161,gp,M,17,R,LE3,at_home,other,course,mother,no,yes,yes,2,1,2,1,2,3,3,2,2,2,,0,7,6,0,1.75,45.9,1,High,Fail
+S377,MS,F,20,U,GT3,health,other,,other,yes,yes,yes,4,2,2,3,2,5,4,3,1,1,3,4,15,14,15,1.57,,7,Medium,Pass
+S012,GP,F,15,U,GT3,services,,reputation,father,yes,yes,no,2,1,3,3,0,N/A,2,2,1,1,4,4,10,12,12,1.67,63.9,1,High,Pass
+S145,GP,M,17,U,GT3,other,other,,mother,yes,yes,no,2,1,1,1,3,5,4,5,1,2,5,0,5,0,0,1.67,65.1,5,High,fail
+S281,GP,M,17,U,LE3,services,other,home,mother,yes,yes,yes,4,1,2,1,0,4,5,4,2,4,5,,8,8,8,1.77,71.9 kg,11,High  ,Fail
+S371,MS,F,19,U,LE3,services,services,home,other,yes,no,yes,3,2,2,2,2,3,2,2,1,1,3,4,,7,9,1.65,45.9,8,Medium,Fail
+S243,GP,M,16,U,?,teacher,Other,course,mother,yes,yes,no,4,3,1,1,0,5,4,5,1,1,3,0,6,0,0,1.75,59.7,11,Medium,Fail
+S128,GP,Male,19,U,GT3,  at_home ,other,course,,no,no,no,0,1,1,2,3,3,4,2,1,1,5,2,7,8,9,1.66,60.3,12,High,Fail
+S213,GP,F,,U,?,other,other,reputation,mother,yes,yes,no,2,2,1,2,0,3,3,4,1,1,4,0,,13,14,1.62,54.3,12,High,Pass
+S185,GP,F,16,U,GT3,other,other,reputation,mother,yes,yes,no,3,2,1,2,0,N/A,2,2,1,2,1,14,12,13,12,1.64,,9,Low,Fail
+S047,GP,Male,16,U,LE3,OTHER,services,home,mother,yes,yes,no,3,3,1,2,0,2,3,5,1,4,3,12,11,12,11,1.58,53.6,1,Medium,Pas
+S247,GP,M,17,U,GT3,other,other,course,father,yes,yes,no,2,3,2,1,0,5,2,2,1,1,2,4,12,12,13,1.72,,7,Low,Pass
+S306,GP,F,18,U,GT3,services,at_home,reputation,other,yes,yes,no,2,4,1,2,1,4,4,3,1,1,3,8,14,12,12,1.71,73.6,2,Medium,Pas
+S366,ms,M,18,R,GT3,at_home,other,course,mother,,,no,1,3,2,2,0,3,3,4,2,4,3,4,10,10,10,1.68,65.2,6,Medium,Pass
+S177,GP,F,16,U,GT3,services,other,reputation,mother,yes,yes,no,2,2,2,2,0,3,4,4,1,4,5,2,13,13,11,1.65,55.2,4,High,Pass
+S211,GP,F,19,U,GT3,,Other,reputation,,yes,yes,,3,3,1,4,0,4,3,3,1,2,3,-8,8,8,8,1.62,52.1,8,Medium,Fail
+S129,GP,f,18 tahun,R,GT3,services,other,reputation,mother,yes,,no,2,2,1,1,2,3,3,3,1,2,4,0,7,4,0,1.84,77.0,12,High,Fail
+S144,gp,F,16,U,LE3,at_home,at_home,course,mother,yes,yes,,1,1,1,,0,3,4,4,3,3,1,2,14,14,13,1.62,,8,Low,Pass
+S008,GP,F,-5,U,GT3,other,,home,mother,yes,no,no,4,4,2,2,0,4,1,4,1,1,1,6,6,5,6,,71.1,8,Low,Fail
+S355,MS,M,17,R,GT3,  services ,other,home,mother,yes,yes,yes,4,3,2,2,0,4,5,5,1,3,2,4,13,11,11,1.72,65.5,8,Low,Pass
+S255,GP,M,17,R,GT3,other,other,course,mother,yes,yes,no,2,1,1,1,0,4,4,2,2,4,5,0,8,12,12,1.79,63.8,1,High,Pass
+S329,gp,F,17,U,GT3,  TEACHER ,services,course,mother,yes,yes,no,4,4,1,3,0,5,4,4,1,3,4,7,10,9,9,1.55,49.3,10,High,Failed
+S180,GP,,17,U,GT3,other,other,course,mother,yes,,yes,4,3,1,2,0,5,2,3,1,1,2,4,10,,11,,77.2,4,Low,Pass
+S173,GP,M,17,U,LE3,teacher,other,reputation,mother,yes,yes,no,4,4,1,2,0,4,4,-,1,3,5,,13,11,10,1.66,48.7,8,High,Pass
+S218,GP,M,18,U,LE3,services,health,home,father,yes,yes,no,3,3,1,2,1,3,2,4,2,4,4,13,6,6,8,1.81,66.5,2,High,Pass
+S302,GP,M,,,LE3,other,Teacher,home,father,yes,yes,no,4,4,2,1,0,4,1,1,,2,5,0,11,11,,1.74,,6,High  ,Pass
+S009,GP,M,,U,LE3,services,other,home,mother,yes,yes,no,3,2,1,2,0,4,2,2,1,1,1,0,16,18,19,1.78,83.8,7,Low,Pass
+S157,GP,M,17,R,LE3,other,other,reputation,mother,,no,,1,2,1,1,0,N/A,2,2,3,3,5,,16,12,13,,39.2,4,High,Pass
+S028,gp,M,15,U,GT3,health,services,other,mother,yes,yes,no,4,2,1,1,0,2,2,4,2,4,1,4,15,,15,1.78,63.5,7,Low,Pass
+S301,GP,F,18,U,LE3,health,other, home,mother,yes,yes,yes,4,4,1,2,0,4,2,4,1,1,4,,12,10,11,1.65,,2,High,Pass
+S360,MS,F,18,U,LE3,,services,course,father,yes,yes,no,1,1,2,3,0,5,3,2,1,1,4,0,18,16,16,1.65,71.8,10,High,Pass
+S059,GP,M,15,U,LE3,other,at  home,home,father,yes,yes,no,,2,1,2,0,4,3,2,1,1,5,2,9,10,9,1.67,62.2,2,High,Fail
+S206,GP,F,17,U,GT3,  at_home ,services,home,mother,yes,yes,,3,4,1,3,1,4,4,3,3,4,5,28,10,9,9,1.59,44.6,5,High,Fail
+S065,GP,F,15,U,LE3,services,services,reputation,father,yes,yes,yes,,3,1,2,0,4,4,4,2,4,2,0,10,10,10,1.64,66.4,7,Low,Pass
+S083,GP,F,15,U,LE3,  services ,other,reputation,mother,yes,yes,no,3,2,1,2,0,4,4,4,1,1,5,10,7,6,6,1.65,53.2,8,High,Failed
+S095,GP,M,15,U,LE3,services,health,reputation,mother,yes,yes,no,2,2,1,4,0,4,3,4,1,1,,7,11,,14,1.62,62.1,5,High,Pass
+S214,GP,M,18,U,GT3,services,other,home,mother,yes,yes,no,2,2,1,2,1,4,4,4,2,4,5,15,6,7,8,1.64,60.7,6,High,Fail
+S260,GP,F,17,U,LE3,SERVICES,services,course,father,yes,yes,yes,2,2,1,4,0,3,4,1,1,1,2,0,10,9,0,1.58,52.6,11,Low,Fail
+S154,GP,M,19,U,GT3,services,at_home,home,mother,no,yes,yes,3,2,1,1,3,4,5,4,1,1,4,0,5,0,0,1.69,62.3,6,High,Fail
+S049,gp,M,15,U,GT3,teacher,other,home,mother,yes,no,,4,2,1,2,0,4,3,3,2,2,5,2,15,15,14,1.82,,11,High,Pass
+S209,GP,F,16,U,GT3,at_home,other,home,mother,yes,no,no,1,1,2,1,0,4,3,2,1,4,5,6,9,9,10,1.64,40.3,9,High,Pass
+S327,GP,f,17,U,GT3,other,services,reputation,mother,yes,yes,no,3,3,1,1,0,4,3,5,3,5,5,3,14,15,16,1.77,70.4,11,High,Fail
+S032,GP,M,15,U,GT3,services,services,reputation,mother,yes,yes,no,4,4,2,2,0,4,3,1,,1,,0,17,16,17,174.0,64.7,7,High,Pass
+S002,GP,F,17,U,GT3,  at_home ,Other,course,father,yes,yes,no,1,1,1,2,0,5,3,3,1,1,3,4,5,,6,1.61,53.4,1,Medium,Fail
+S172,GP,M,16,U,GT3,other,other,reputation,mother,yes,yes,yes,1,0,2,2,0,4,3,2,1,1,3,2,13,15,16,,49.5,9,Medium,Pass
+S268,GP,F,18,R,GT3,teacher,other,reputation,mother,yes,yes,no,4,4,2,2,0,4,3,4,2,2,4,8,12,10,11,1.58,40.1,8,High,Pass
+S014,GP,M,15,U,GT3,teacher,other,course,mother,yes,yes,,4,3,2,2,0,5,4,3,1,2,3,2,10,10,11,1.77,79.9,8,Medium,Pass
+S375,MS,F,18,R,LE3,other,other,reputation,mother,yes,yes,no,4,4,2,3,0,5,4,4,1,1,1,0,19,18,19,1.63,68.4,8,Low,Pass
+S010,GP,M,15,U,GT3,  other ,other,home,mother,yes,yes,,3,4,1,2,0,5,5,1,1,1,5,,14,15,15,1.75,74.6,2,High,Pass
+S147,GP,F,15,U,GT3,health,services,,father,yes,yes,no,,2,1,2,3,3,3,2,1,1,3,0,6,7,0,1.62,46.1,4,Medium,Fail
+S266,GP,M,18,R,LE3,unknown,Other,reputation,mother,yes,yes,no,3,4,2,2,0,4,2,5,3,4,1,13,17,17,17,1.73,57.1,1,Low,Pass
+S272,GP,F,18,U,GT3,,services,reputation,father,yes,yes,yes,2,3,1,4,0,4,5,5,1,3,2,4,15,14,14,1.61,65.9,10,Low,Pas
+S380,MS,F,17,R,GT3,at_home,Other,reputation,mother,yes,yes,no,3,1,1,2,0,4,5,4,2,3,1,17,10,10,10,163.0,64.9,11,Low,Pass
+S096,GP,F,15,R,GT3,at_home,other,home,mother,yes,yes,no,1,1,2,4,1,3,1,2,1,1,1,2,7,10,10,1.58,53.5,4,Low,Pas
+S035,gp,M,16,U,GT3,,other,home,mother,yes,,no,3,2,1,1,0,5,4,3,1,1,5,0,12,14,15,1.78,80.5,5,High,Pass
+S097,GP,MALE,16,R,GT3,services,other,reputation,mother,yes,yes,no,4,3,2,1,0,3,3,3,1,1,4,2,11,15,15,1.71,57.9,8,High,pass
+S187,GP,M,16,U,GT3,services,services,other,mother,yes,yes,yes,1,2,1,1,0,3,3,3,1,2,3,2,,12,11,1.63,0,5,Medium,Pass
+S285,GP,F,17,U,GT3,OTHER,other,course,,yes,yes,no,2,2,1,2,0,5,4,5,1,2,,4,10,9,11,1.68,65.7,9,High,Pass
+S259,GP,M,18,U,GT3,  other ,other,home,mother,yes,yes,no,2,1,1,2,0,5,2,4,1,2,4,8,15,14,14,1.74,66.8,9,High,Pass
+S117,GP,M,15,,GT3,other,teacher,reputation,father,yes,no,no,4,4,2,2,0,4,4,3,1,1,2,2,11,13,14,1.61,41.8,12,Low,Pass
+S046,GP,F,15,U,LE3,other,other,course,mother,yes,yes,yes,4,3,1,2,0,5,2,2,1,1,5,8,8,8,35,1.62,47.3,7,High,Fail
+S162,gp,MALE,,R,GT3,other,other,course,mother,yes,yes,yes,,2,2,2,2,4,4,4,1,4,3,6,5,9,7,1.75,80.7,11,Medium,Fail
+S315,GP,F,,U,GT3,at_home,health,home,other,yes,yes,yes,,1,1,3,2,4,1,2,1,1,3,14,15,13,13,0,63.5,12,Medium,Pass
+S118,GP,M,16,U,GT3,other,services,home,father,yes,yes,no,3,3,2,1,0,5,4,2,1,1,5,0,13,14,13,1.72,56.2,1,High,Pass
+S078,GP,F,16,U,GT3,other,other,reputation,mother,yes,yes,yes,2,2,1,4,0,5,2,3,1,3,3,0,11,11,11,1.67,,10,Medium,Pass
+S322,GP,F,17,U,GT3,other,other,course,mother,yes,no,yes,2,2,1,2,0,4,2,2,1,1,3,,,9,9,1.56,59.4,6,Medium,Fail
+S064,GP,Male,16,U,GT3,teacher,health,home,mother,yes,yes,no,4,3,1,3,0,3,4,4,2,4,4,2,10,9,9,1.59,52.7,8,High,Fail
+S231,GP,F,17,U,LE3,health,other, reputation,father,yes,yes,yes,4,3,1,2,0,3,2,3,1,2,3,14,13,13,14,1.53,56.6,12,Medium  ,Pass
+S187,GP,M,16,U,GT3,services,services,other,mother,yes,yes,yes,1,2,1,1,0,3,3,3,1,2,3,2,,12,11,1.63,0,5,Medium,Pass
+S275,GP,F,17,U,GT3,at_home,health,reputation,mother,yes,yes,yes,2,4,2,2,0,4,3,3,1,1,1,2,10,10,10,1.57,70.7,10,Low,pass
+S200,GP,F,16,U,LE3,teacher,teacher,,mother,yes,yes,no,4,4,1,2,0,4,5,2,1,2,3,,9,9,-4,,55.3,1,Medium,Pass
+S279,GP,F,18,U,GT3,health,health,reputation,father,yes,yes,yes,4,4,1,2,1,2,4,4,1,1,4,15,9,8,8,1.6,57.8,7,High,Pass
+S122,GP,M,15,U,GT3,services,services,home,father,yes,yes,no,2,2,1,4,0,5,5,4,1,2,5,6,16,14,15,1.79,57.5,6,High,Pass
+S381,MS,M,18,U,GT3,  teacher ,Teacher,home,father,yes,,no,4,4,1,2,0,3,2,4,1,4,2,4,15,14,14,1.72,66.0,10,Low,Pass
+S354,MS,M,19,R,GT3,other,other,home,,yes,yes,no,1,1,3,1,1,4,4,4,3,3,5,4,8,8,8,1.84,63.6,6,High,Fail
+S159,GP,M,16,R,GT3,at_home,other,,mother,yes,no,no,2,2,3,1,0,4,2,2,1,2,3,2,17,15,15,1.77,54.9,4,Medium,Pass
+S086,GP,F,15,U,GT3,services,services,,father,yes,yes,yes,4,4,2,2,2,4,4,4,2,3,5,6,7,9,8,,55.8,6,High,Fail
+S226,GP,F,18,R,GT3,OTHER,other,reputation,it,yes,,yes,3,1,1,2,1,N/A,3,3,1,1,4,16,9,,7,1.63,55.2,9,High,Fail
+S263,GP,M,18,R,GT3,other,other,course,mother,yes,no,no,3,2,1,3,0,5,3,2,1,1,3,1,13,12,12,1.74,66.1,5,Medium  ,Pass
+S341,GP,F,19,U,GT3,services,services,home,other,yes,yes,yes,2,1,1,3,1,4,3,4,1,3,3,4,11,12,11,1.57,50.4,2,Medium,Pass
+S077,GP,M,15,U,GT3,teacher,other,course,mother,yes,yes,no,4,0,2,4,0,3,4,3,,1,1,8,11,11,10,1.81,74.3,9,Low,Pass
+S320,GP,F,18,U,?,teacher,other,course,mother,yes,yes,no,4,4,1,2,0,4,4,4,3,3,5,2,11,11,11,1.67,54.7,12,High,Pass
+S307,GP,M,20,U,GT3,services,other,course,other,yes,no,no,3,2,1,1,0,5,5,3,1,1,5,0,17,18,18,1.79,59.5,2,High,Pass
+S088,GP,F,15,U,GT3,  other ,other,reputation,mother,yes,yes,no,4,2,1,3,0,5,3,3,1,3,1,4,13,14,14,1.65,64.5,11,Low,Pass
+S370,MS,F,18,R,GT3,,teacher,other,father,yes,yes,yes,4,4,3,2,0,3,2,2,4,2,5,11,14,12,11,1.58,48.6,2,High,Pass
+S183,GP,F,17,U,GT3,services,services,reputation,father,yes,no,no,2,4,1,2,0,5,4,2,2,3,5,0,16,17,17,,69.5,2,High,Pas
+S106,GP,,15,U,GT3,other,health, reputation,father,yes,no,no,3,3,1,4,0,4,3,3,1,1,,10,10,11,11,,52.9,2,High,Pass
+S050,GP,F,15,U,GT3,services,teacher,other,father,yes,yes,no,4,4,1,2,1,4,4,4,1,1,3,2,7,7,7,1.52,57.0,10,Medium,Fail
+S006,GP,M,16,U,LE3,services,other,reputation,mother,yes,yes,no,4,3,1,2,0,5,4,2,1,2,5,10,15,15,15,1.78,82.8,5,High,Pass
+S018,GP,F,16,U,GT3,other,other,reputation,mother,yes,no,no,3,3,3,2,0,5,3,2,1,1,4,4,8,10,10,1.67,66.1,8,High,Pass
+S235,GP,M,16,U,LE3,other,other,home,mother,yes,,no,1,1,2,2,0,3,4,2,1,1,5,18,9,7,6,1.68,59.7,3,High,Fail
+S328,GP,M,17,R,GT3,services,other,course,mother,yes,yes,no,2,2,4,1,0,4,4,5,5,5,4,,11,10,10,1.84,72.6,7,High,Pass
+S107,GP,F,15,U,GT3,other,Other,course,mother,yes,yes,no,2,2,1,4,0,5,1,2,1,1,3,8,7,8,8,1.65,44.9,10,Medium,Fail
+S135,GP,M,15,R,GT3,at_home,teacher,course,mother,yes,no,yes,3,?,4,2,0,5,3,3,1,1,5,0,9,0,0,1.78,77.2,6,High,Fail
+S332,GP,MALE,17,R,GT3,at_home,other,course,father,yes,yes,yes,2,4,1,3,0,4,4,3,1,1,5,7,12,14,14,0,47.7,11,High,Pass
+S227,GP,F,17,U,GT3,other,other,course,mother,yes,yes,no,3,2,1,2,0,5,3,-,1,3,3,10,16,15,15,1.72,80.0,11,Medium,Pass
+S215,GP,F,17,R,LE3,services,other,other,mother,yes,no,no,4,4,1,1,0,5,2,1,1,2,3,12,,10,10,1.69,61.3,11,Medium,Pass
+S191,GP,F,16,U,GT3,services,services,course,mother,yes,yes,no,2,3,1,2,0,4,3,3,1,1,2,10,11,12,13,1.61,73.9,1,Low,Pass
+S363,ms,F,18,U,GT3,services,services,other,mother,yes,yes,yes,3,3,2,2,0,4,3,2,1,3,3,0,11,11,10,1.55,58.2,2,Medium,Pas
+S283,GP,F,18,R,LE3,at_home,other,reputation,mother,yes,no,,1,1,2,4,0,5,2,2,1,1,3,1,12,12,12,1.59,47.7 kg,8,Medium,Pass
+S030,GP,M,16,U,GT3,teacher,teacher,home,mother,yes,yes,yes,4,4,1,,0,4,4,5,5,5,5,16,10,12,11,1.71,67.9,8,High,Pass
+S170,GP,F,16,U,GT3,,health,reputation,mother,yes,yes,yes,4,4,1,2,0,4,4,2,1,1,3,0,14,,14,1.6,49.5,4,Medium,Pas
+S181,gp,M,16,U,GT3,teacher,other,home,mother,yes,yes,no,4,3,1,2,0,3,4,3,2,3,3,10,9,8,8,1.7,57.2,8,Medium,Fail
+S101,gp,M,16,U,GT3,services,services,other,mother,yes,yes,no,4,4,1,1,0,4,5,5,5,5,4,14,7,7,5,,51.7,6,High,Fail
+S198,GP,M,16,R,LE3,teacher,other,,father,yes,yes,no,3,3,3,1,0,3,3,4,3,5,3,8,9,9,10,175.0,56.9,8,Medium,Pas
+S210,GP,F,17,R,GT3,teacher,other,reputation,mother,yes,,yes,4,3,2,3,0,4,4,2,,1,4,6,7,7,7,1.63,57.6,6,High,Fail
+S136,GP,F,15,U,GT3,  services ,at_home,course,it,yes,yes,yes,4,4,1,3,0,4,3,3,1,1,5,0,11,0,0,1.59,47.9,2,High,Fail
+S386,MS,F,18 tahun,R,GT3,at_home,other,other,mother,,no,no,2,2,2,3,0,5,3,3,1,3,4,2,10,9,,1.58,64.5,11,High,Pass
+S352,MS,M,17,U,GT3,health,other,course,mother,yes,yes,no,3,3,2,2,0,4,5,4,2,3,3,2,13,13,13,1.7,48.9,4,Medium,Pass
+S199,GP,Male,17,U,GT3,services,Teacher,home,mother,yes,yes,no,4,4,2,1,1,4,2,4,2,3,2,24,18,18,18,1.65,53.7,9,Low,Pass
+S167,gp,M,16,U,GT3,other,other,course,father,no,yes,no,2,2,1,2,0,4,3,5,2,4,4,4,10,10,,1.75,,7,High,Pas
+S317,gp,F,,U,GT3,unknown,other,course,mother,yes,yes,no,2,1,2,2,0,5,3,3,1,2,1,0,8,,0,1.52,41.3,6,Low,Fail
+S137,GP,M,17,R,GT3,at_home,other,course,mother,yes,no,no,3,4,3,2,0,5,4,5,2,4,5,0,10,0,0,1.62,54.5,7,High,Fail
+S286,GP,M,17,U,GT3,other,other,reputation,father,yes,yes,no,1,1,1,2,0,4,3,3,1,2,4,2,12,10,11,1.82,74.6,3,High,Pass
+S132,GP,female,15,U,GT3,at_home,other,course,mother,,yes,yes,1,1,3,1,0,4,3,3,1,2,4,0,8,,0,1.6,,3,High,Fail
+S040,GP,F,,R,GT3,at_home,other,reputation,mother,yes,no,no,2,2,1,1,0,4,3,1,1,1,2,8,,13,13,1.6,64.9,4,Low,Pas
+S216,GP,F,,U,LE3,other,other,reputation,mother,yes,yes,no,3,2,2,2,0,4,4,4,1,3,1,2,14,15,15,1.66,,3,Low,Pass
+S044,GP,M,15,U,GT3,services,services, course,father,yes,yes,no,2,2,1,1,0,5,4,1,1,1,1,0,8,8,11,1.57,51.3,12,Low,Pass
+S055,GP,F,15,U,LE3,OTHER,other,other,mother,yes,yes,no,3,3,1,1,0,5,3,4,4,4,1,6,10,13,13,1.64,60.4,4,Low,Pas
+S389,MS,F,18,,LE3,teacher,services, course,mother,yes,yes,no,3,1,1,2,0,4,3,4,1,1,1,0,7,9,8,1.67,,8,Low,Fail
+S300,GP,M,18,,LE3,teacher,teacher, home,mother,yes,yes,yes,4,4,1,1,0,1,4,2,2,2,1,5,16,15,16,1.77,61.1,10,Low,Pass
+S373,MS,F,17,U,GT3,other,at_home, home,mother,yes,no,,2,2,1,3,0,3,4,3,1,1,3,8,13,11,11,1.55,56.4,6,Medium,Pass
+S305,GP,MALE,19,U,GT3,other,other,home,other,yes,yes,yes,3,3,1,2,1,4,4,4,1,1,3,20,15,14,13,1.78,75.3,5,Medium,Pass
+S036,GP,F,15,,GT3,other,other,other,father,yes,,no,2,3,2,1,0,3,5,1,1,1,5,0,8,7,6,1.66,46.3,11,High,Fail
+S316,GP,F,19,R,?,other,other,reputation,other,yes,yes,yes,2,3,1,3,1,4,1,2,1,1,3,40,13,11,11,1.69,55.6,10,Medium,Pass
+S310,GP,F,19,U,LE3,at_home,other,reputation,other,yes,yes,no,1,1,1,2,1,4,4,3,1,3,3,18,12,10,10,1.58,50.7,1,Medium,Pass
+S277,GP,MALE,18,,GT3,other,services,home,mother,no,yes,yes,3,2,2,2,0,4,1,1,1,1,,75,10,9,9,1.53,35.6,9,High,Fail
+S125,GP,F,16,U,GT3,other,other,home,mother,yes,yes,yes,2,2,1,2,0,5,4,4,1,1,5,0,8,7,8,1.57,45.6,1,High,Fail
+S143,GP,female,15,U,GT3,teacher,Services,course,mother,yes,yes,no,4,4,1,3,0,4,2,2,1,1,5,2,9,11,11,1.61,57.4,4,High,Pass
+S111,GP,M,15,U,LE3,teacher,teacher,course,mother,yes,yes,no,4,4,1,1,0,5,5,3,1,1,4,6,18,19,19,,79.1,3,High,Pass
+S324,GP,F,,U,GT3,SERVICES,services,course,father,yes,yes,no,3,1,1,3,0,3,4,3,2,3,5,1,12,14,15,1.58,43.6,1,High,Pass
+S359,MS,M,18,U,LE3,other,services,home,,yes,,yes,1,1,2,,0,3,3,2,1,2,3,4,10,10,10,1.86,78.5,10,Medium,pass
+S108,GP,M,16,U,GT3,services,other,home,father,yes,yes,no,3,3,1,3,0,5,3,3,1,1,5,2,16,18,18,1.71,72.0,11,High,Pass
+S013,GP,M,15,U,LE3,health,services,course,father,yes,yes,,4,?,1,1,0,4,3,3,1,3,5,,14,14,14,1.77,65.4,7,High,Pass
+S273,GP,F,18,U,LE3,  other ,other,home,mother,yes,no,no,1,1,2,2,0,4,4,3,1,1,3,2,11,11,11,,70.1,6,Medium,Pass
+S048,GP,M,16,U,GT3,health,,reputation,mother,,,no,4,3,1,4,0,4,2,2,1,1,2,4,19,,20,1.56,53.4,7,Low,Pass
+S204,GP,,17,R,GT3,other,other,reputation,mother,yes,yes,no,2,2,1,1,0,5,3,2,1,2,3,18,7,6,6,1.65,69.5 kg,7,Medium,fail
+S351,MS,MALE,19,R,GT3,other,services,home,other,yes,yes,no,1,1,3,2,3,5,4,4,3,3,2,8,8,7,8,1.79,67.4 kg,11,Low,Fail
+S120,gp,M,15,,GT3,  other ,other, reputation,father,yes,yes,no,3,4,1,1,0,3,4,3,1,2,,6,14,13,13,1.74,58.6,3,High,Pass
+S022,gp,M,15,U,GT3,health,health,other,father,yes,yes,no,4,4,1,1,0,5,4,2,1,1,5,0,12,15,15,1.7,80.9,5,High,Pass
+S084,GP,M,15,U,LE3,services,services,home,mother,yes,yes,no,2,2,2,2,0,5,3,3,1,3,4,4,15,15,15,1.61,59.5,8,High,Pass
+S131,GP,F,15,R,GT3,services,teacher,course,father,yes,yes,yes,3,4,2,3,2,4,2,2,2,2,5,0,12,0,0,1.7,55.6,4,High,Fail
+S330,GP,F,17,U,GT3,teacher,teacher,course,mother,yes,yes,,4,4,2,3,0,4,3,3,1,2,4,4,14,14,14,1.58,61.5,4,High,pass
+S230,GP,F,17,U,GT3,OTHER,other,course,mother,yes,yes,yes,2,1,2,3,0,3,2,3,1,2,3,10,12,10,12,1.59,59.4,2,Medium,Pass
+S331,GP,M,18,U,LE3,OTHER,other,course,it,yes,yes,no,2,2,1,4,0,4,5,5,2,4,5,2,9,8,8,1.69,56.5,7,High,Fail
+S287,gp,F,18,U,GT3,  at_home ,at_home,other,mother,yes,yes,no,,2,1,3,0,4,3,3,1,2,2,5,18,18,19,1.57,51.1,10,Low,Pass
+S124,GP,M,16,U,GT3,health,other,course,mother,yes,yes,no,4,4,1,1,0,3,4,4,1,4,5,18,,,13,1.76,54.9,3,High,Pass
+S034,GP,M,15,U,LE3,other,other,course,mother,yes,yes,no,3,3,1,2,0,5,3,2,1,1,2,400,8,10,,1.74,49.8,1,Low,Pass
+S387,MS,F,18,R,GT3,teacher,at_home,reputation,mother,yes,yes,yes,4,4,3,1,0,4,4,3,2,2,5,7,6,5,6,1.63,,6,High,Fail
+S005,GP,F,16,U,GT3,,other,home,father,yes,no,no,3,3,1,2,0,4,3,2,1,2,5,,6,10,10,1.64,58.5,10,High,Pass
+S020,GP,M,16,U,LE3,health,other,home,father,yes,,no,4,3,1,1,0,3,1,3,1,3,5,,8,10,10,1.82,65.5,10,High,Pass
+S220,GP,F,17,U,GT3,at_home,at_home,course,mother,yes,yes,no,2,2,1,3,0,4,3,3,1,1,,4,9,10,10,1.62,56.7,3,High,Pass
+S033,GP,M,15,R,GT3,teacher,at_home,course,mother,yes,,yes,4,3,1,2,0,4,5,2,1,1,5,1,17,16,16,1.74,75.7,4,High,Pass
+S150,GP,M,15,U,LE3,services,other,course,mother,yes,yes,no,2,1,4,1,3,4,5,5,2,5,5,0,8,9,10,1.65,48.9,8,High,Fail
+S225,GP,F,16,U,GT3,teacher,services,home,mother,yes,yes,no,4,4,1,3,0,5,3,2,1,1,5,0,13,13,14,1.65,54.2,3,High,Pass
+S248,GP,M,22,U,GT3,services,services,,mother,no,yes,yes,3,1,1,1,3,5,4,5,5,5,1,16,6,8,8,1.67,57.2,5,Low,Fail
+S364,MS,F,17,U,LE3,  at_home ,at_home,course,mother,yes,yes,yes,4,4,1,2,0,N/A,3,4,1,1,1,0,16,15,15,1.52,50.6,9,Low,Pass
+S152,GP,M,16,U,LE3,at_home,other,course,mother,yes,no,yes,2,1,1,1,1,4,4,4,,5,5,6,12,13,14,1.77,47.0,4,High,Pass
+S318,GP,F,18,U,GT3,other,,course,mother,yes,yes,yes,4,3,1,3,0,4,3,4,1,1,5,9,9,10,9,1.66,,5,High,Fail
+S292,GP,F,17,U,GT3,health,services,reputation,mother,yes,yes,no,4,3,1,3,0,4,2,2,1,2,3,0,15,15,15,1.59,,10,Medium,Pass
+S234,GP,M,16,U,GT3,health,other,reputation,father,yes,yes,no,4,4,1,2,0,4,2,4,2,4,1,2,14,13,13,1.71,72.1,9,Low,Pass
+S011,gp,F,15,U,GT3,teacher,health,reputation,mother,yes,yes,no,4,4,1,2,0,3,3,3,1,2,2,0,10,8,9,1.59,53.8,11,Low,Fail
+S280,GP,M,18,U,LE3,  TEACHER ,services,course,mother,yes,yes,,4,3,2,1,0,4,2,3,1,2,1,8,10,11,10,1.78,65.0,10,Low,Pass
+S072,GP,M,15,U,GT3,other,other,course,mother,yes,yes,no,4,2,1,4,0,3,3,3,1,1,3,,10,10,10,1.72,48.6,10,Medium,Pass
+S253,GP,M,18,U,GT3,services,services,other,mother,no,yes,no,2,1,1,1,1,3,2,5,2,5,5,4,6,9,8,1.79,78.5,12,High,Fail
+S093,GP,F,16 tahun,U,LE3,other,other,home,father,yes,no,no,3,1,1,2,0,3,3,3,2,3,2,4,7,6,6,1.52,49.6,4,Low,Fail
+S350,MS,M,18,R,GT3,  other ,other,course,mother,yes,yes,no,3,2,2,1,1,2,5,5,5,5,5,10,11,13,13,1.74,71.1,7,High,Pass
+S193,GP,M,17,U,GT3,,services,other,other,yes,yes,no,1,2,2,2,0,N/A,4,4,4,5,5,12,7,8,8,1.63,59.4,7,High,Fail
+S258,GP,M,19,U,LE3,services,at_home,reputation,mother,yes,yes,no,4,3,1,2,0,4,3,1,1,1,1,12,11,,11,,63.0,10,Low,Pass
+S340,GP,Male,17,R,GT3,other,other,home,,yes,yes,no,3,2,1,2,0,4,3,3,2,3,2,4,9,10,10,1.66,62.3,10,Low,Pass
+S279,GP,F,18,U,GT3,health,health,reputation,father,yes,yes,yes,4,4,1,2,1,2,4,4,1,1,4,15,9,8,8,1.6,57.8,7,High,Pass
+S196,gp,F,17,U,LE3,,services,course,father,yes,yes,yes,2,4,1,2,0,4,3,2,1,1,5,0,14,15,15,1.49,,5,High,Pass
+S344,GP,F,17,U,GT3,AT_HOME,at_home,,father,,yes,yes,2,2,1,2,1,3,3,1,1,2,,0,9,8,0,1.59,49.7,12,High,Fail
+S138,GP,F,16,U,GT3,other,Other, course,other,yes,yes,yes,3,3,2,1,2,4,3,2,1,1,5,0,4,0,0,1.7,51.4,7,High,Fail
+S261,GP,F,18,U,GT3,SERVICES,other,,father,yes,yes,yes,4,3,1,2,0,3,1,2,1,3,2,21,17,18,18,1.54,,1,Low,Pass
+S039,GP,F,15,R,GT3,services,health,course,mother,yes,,no,3,4,1,3,0,4,3,2,1,1,5,2,12,12,11,1.54,,5,High,Pass
+S202,GP,F,16,U,GT3,other,,reputation,mother,yes,no,no,2,3,1,2,0,4,4,3,1,3,4,6,8,10,10,1.59,51.6,5,High,Pass
+S383,MS,M,17,U,GT3,other,services,home,father,yes,yes,no,2,3,2,2,0,4,4,3,,1,3,2,11,,10,1.64,52.5,1,Medium,Pass
+S291,GP,M,18,U,GT3,teacher,other,home,it,yes,yes,yes,4,2,1,2,0,4,3,2,1,4,5,11,12,11,11,1.73,96.3,1,High,Pass
+S190,GP,M,17,R,GT3,at_home,other,home,mother,,no,no,1,2,1,2,0,3,1,3,1,5,3,4,8,9,10,1.94,87.3,4,Medium,Pass
+S252,GP,M,16,,GT3,at_home,other,reputation,other,yes,yes,no,3,3,3,2,0,5,3,3,1,3,2,6,7,10,10,1.76,58.5,7,Low,Pass
+S113,GP,F,16,U,GT3,,other,home,mother,yes,yes,no,2,2,1,,1,3,1,2,1,1,5,,10,13,13,1.68,49.4,3,High,Pass
+S184,GP,F,17,U,LE3,unknown,other,reputation,mother,yes,yes,yes,3,3,1,,0,5,3,3,2,3,1,56,9,9,8,1.57,49.3,8,Low,Fail
+S153,GP,F,15,R,GT3,unknown,services,reputation,other,yes,yes,yes,3,3,2,3,2,4,2,1,,3,3,8,10,10,10,1.62,40.5,6,Medium,Pass
+S313,GP,M,19 tahun,U,GT3,,services,course,other,yes,yes,no,1,2,1,,1,4,5,2,2,2,4,3,13,11,11,1.62,59.9,4,High,Pass
+S326,GP,,18,U,GT3,other,other, course,mother,yes,yes,no,4,4,1,3,0,4,3,3,2,2,3,3,9,12,11,1.73,74.3,3,Medium,Pass
+S192,GP,F,17,U,GT3,at_home,services,course,mother,yes,yes,no,1,1,1,2,0,5,3,3,1,1,3,0,8,8,9,1.63,69.0,11,Medium,Fail
+S045,GP,F,16,U,LE3,other,at_home,course,father,yes,yes,no,2,2,2,2,1,4,3,3,2,2,5,,10,10,9,1.66,,1,High,Fail
+S276,GP,F,17,U,LE3,services,,course,mother,yes,,yes,2,2,2,2,0,4,4,4,2,3,5,6,12,12,12,,62.4,12,High,Pass
+S007,gp,M,16,U,LE3,other,other,,mother,yes,yes,no,2,2,1,2,0,4,4,4,1,1,,0,12,,11,1.68,72.1,4,Medium  ,pas
+S251,GP,MALE,18,U,GT3,services,other,course,mother,no,,no,3,2,2,,1,4,4,5,2,4,5,0,6,8,8,1.59,48.9,10,High,Fail
+S312,GP,F,19,U,GT3,at_home,other,other,other,no,yes,yes,2,1,3,2,0,3,4,1,1,1,2,20,14,12,13,1.65,58.5,6,Low,Pass
+S076,GP,M,15,U,GT3,teacher,other,home,mother,yes,yes,no,4,3,1,2,0,4,3,3,2,3,5,6,9,9,10,3.9,82.8,6,High,Pass
+S001,gp,F,18,U,GT3,at_home,teacher,course,,yes,no,no,,4,2,2,0,4,3,4,1,1,3,6,5,6,6,1.64,60.8,8,Medium,Fail
+S392,MS,M,17,U,LE3,services,services,course,mother,yes,yes,no,3,1,2,1,0,2,4,5,3,4,2,3,14,16,16,1.73,,8,Low,Fail
+S384,MS,M,19 tahun,R,GT3,unknown,services,,mother,yes,no,no,1,1,2,1,1,4,3,2,1,3,5,0,6,5,0,1.88,95.6,2,High,Fail
+S069,GP,F,15,R,LE3,health,services,reputation,mother,yes,yes,no,2,2,2,2,0,4,1,3,1,3,4,2,8,9,8,1.71,61.2,5,High,Fail
+S168,GP,f,16,U,GT3,health,services,home,father,yes,yes,yes,4,2,1,2,0,4,2,3,1,1,,0,14,15,16,1.55,54.1,2,Medium,Pass
+S393,MS,M,21,R,GT3,other,other,course,other,yes,no,no,1,1,1,1,3,5,5,3,3,3,3,3,10,8,7,1.77,52.1,1,Medium,Fail
+S219,GP,F,17,U,GT3,at_home,other,home,father,yes,no,no,2,3,2,1,0,3,3,3,1,4,3,3,7,7,8,1.57,,3,Medium,Fail
+S043,GP,M,15,U,GT3,services,teacher,course,father,yes,yes,no,4,4,1,2,0,4,3,3,1,1,5,2,19,18,18,1.81,64.8,10,High,Pas
+S367,ms,M,18,U,LE3,teacher,services,other,mother,yes,yes,yes,4,4,2,3,0,4,2,2,2,2,5,0,13,13,13,1.73,54.2,7,High,Pass
+S346,GP,F,18,U,GT3,other,Services,other,mother,yes,yes,yes,3,2,1,3,0,5,4,3,2,3,1,7,13,13,14,1.65,59.0,11,Low,Pas
+S073,GP,F,15,R,GT3,  OTHER ,Other,reputation,mother,yes,yes,,1,1,1,2,2,3,3,4,2,4,5,2,8,6,5,1.55,67.5,12,High,Fail
+S024,GP,M,16,U,LE3,other,other,reputation,mother,yes,yes,no,2,2,2,2,0,5,4,4,2,4,5,0,13,13,12,1.74,72.7,11,High,Pass
+S198,GP,M,16,R,LE3,teacher,other,,father,yes,yes,no,3,3,3,1,0,3,3,4,3,5,3,8,9,9,10,175.0,56.9,8,Medium,Pas
+S186,GP,M,17,U,GT3,,services,other,mother,yes,yes,yes,3,3,1,2,0,4,3,4,2,3,4,12,12,12,11,184.0,75.4,9,High,Pass
+S349,GP,F,17,U,GT3,health,other,reputation,mother,yes,yes,yes,4,3,1,3,0,4,4,3,1,3,4,0,13,15,15,1.57,45.3,1,High,Pass
+S104,GP,F,15 tahun,U,GT3,services,other,home,mother,yes,yes,,3,2,2,2,0,4,3,5,1,1,2,26,7,6,6,1.6,,6,Low,Fail
+S212,GP,M,17,U,LE3,services,other,home,mother,yes,yes,yes,4,4,1,2,0,5,3,5,4,5,3,13,12,12,,1.69,72.7,6,Medium,Pass
+S068,GP,F,16,U,GT3,services,other, course,mother,yes,yes,no,3,1,1,4,0,4,3,3,1,2,5,4,7,7,6,1.7,62.9,7,High  ,Fail
+S026,GP,F,16,U,GT3,services,services,home,mother,yes,,no,2,2,1,1,2,1,2,2,1,3,5,14,6,9,8,1.66,60.6 kg,12,High,Fail
+S197,GP,M,17,U,GT3,services,teacher,home,mother,yes,yes,no,4,4,1,,0,5,2,3,1,2,5,4,17,15,16,1.74,52.3,2,High,Pass
+S176,GP,M,17,U,LE3,,Other,course,mother,,yes,no,4,3,2,,0,4,4,4,4,4,4,4,,9,9,1.67,,5,High,Fail
